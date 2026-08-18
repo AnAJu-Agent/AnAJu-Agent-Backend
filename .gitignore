@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.env
+.venv/
+__pycache__/
+*.pyc
+*.log
+server.log
+.DS_Store
+
+data/*.json
+sample_data/*.json
+!sample_data/*.example.json
+
+*.mp3
+*.wav
+*.m4a
+*.mp4
+d80b0b2 (feat: initialize agent backend)
